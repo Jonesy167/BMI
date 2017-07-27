@@ -4,14 +4,14 @@
 import os 
 
 #set file paths as varaiables using CSIDL type function, to mitigate unpredictable system names
-healthy = os.path.join(os.environ['USERPROFILE'], "Desktop\BMI-master\other\healthy.jpg")
-superfat = os.path.join(os.environ['USERPROFILE'], "Desktop\BMI-master\other\superfat.jpg")
-superfat2 = os.path.join(os.environ['USERPROFILE'], "Desktop\BMI-master\other\superfat2.jpg")
-superfat3 = os.path.join(os.environ['USERPROFILE'], "Desktop\BMI-master\other\superfat3.jpg")
-superfat4 = os.path.join(os.environ['USERPROFILE'], "Desktop\BMI-master\other\superfat4.jpg")
-superfat5 = os.path.join(os.environ['USERPROFILE'], "Desktop\BMI-master\other\superfat5.png")
-instructions = os.path.join(os.environ['USERPROFILE'], "Desktop\BMI-master\other\instructions.docx")
-sweat = os.path.join(os.environ['USERPROFILE'], "Desktop\BMI-master\other\sweat.jpg")
+healthy = os.path.join(os.environ['USERPROFILE'], "Desktop\Military-BMI-checker-master\other\healthy.jpg")
+superfat = os.path.join(os.environ['USERPROFILE'], "Desktop\Military-BMI-checker-master\other\superfat.jpg")
+superfat2 = os.path.join(os.environ['USERPROFILE'], "Desktop\Military-BMI-checker-master\other\superfat2.jpg")
+superfat3 = os.path.join(os.environ['USERPROFILE'], "Desktop\Military-BMI-checker-master\other\superfat3.jpg")
+superfat4 = os.path.join(os.environ['USERPROFILE'], "Desktop\Military-BMI-checker-master\other\superfat4.jpg")
+superfat5 = os.path.join(os.environ['USERPROFILE'], "Desktop\Military-BMI-checker-master\other\superfat5.png")
+instructions = os.path.join(os.environ['USERPROFILE'], "Desktop\Military-BMI-checker-master\other\instructions.docx")
+sweat = os.path.join(os.environ['USERPROFILE'], "Desktop\Military-BMI-checker-master\other\sweat.jpg")
 
 print ("this program will let you know if your fat or not, in case there was any doubt...............")
 
