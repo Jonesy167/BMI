@@ -51,7 +51,7 @@ print ("Your bmi is %f " % bmi)
 raw_input ("")
 
 if bmi >= 20 and bmi <= 25:
-	print "your weight is good well done :) "
+	print "your BMI is healthy, well done :) "
 	import os
 	import Image
 	raw_input ("")
@@ -71,7 +71,7 @@ if bmi >=25 and bmi <= 30:
 	
 	
 if bmi <=20:
-	print "you are underweight, still better to be to thin than to fat :) "
+	print "you are underweight, still better to be to be a little to thin than to fat :) "
 	import os
 	import Image
 	raw_input ("")
@@ -116,5 +116,7 @@ if bmi >=25 and sex in ["m", "M", "male", "Male"]:
 	ctypes.windll.user32.SystemParametersInfoA(SPI_SETDESKWALLPAPER, 0, superfat5, 0) #change screensaver to man eating cake
 
 	
+raw_input ("")
+
 raw_input ("")
 
