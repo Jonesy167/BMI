@@ -104,13 +104,13 @@ if bmi <=25 and sex in ["m", "M", "male", "Male"]:
 
 
 if bmi >=25 and sex in ["f", "F", "female", "Female"]:
-	print ("see ya later 'slim' enjoy the screensaver, don't let that be future you!!!!")
+	print ("see ya later 'slim' enjoy the background, don't let that be future you!!!!")
 	import ctypes
 	SPI_SETDESKWALLPAPER = 20 
 	ctypes.windll.user32.SystemParametersInfoA(SPI_SETDESKWALLPAPER, 0, superfat4, 0) #change screensaver to woman eating cake
 
 if bmi >=25 and sex in ["m", "M", "male", "Male"]:
-	print ("see ya later 'slim' enjoy the screensaver, don't let that be future you!!!!")
+	print ("see ya later 'slim' enjoy the background, don't let that be future you!!!!")
 	import ctypes
 	SPI_SETDESKWALLPAPER = 20 
 	ctypes.windll.user32.SystemParametersInfoA(SPI_SETDESKWALLPAPER, 0, superfat5, 0) #change screensaver to man eating cake
