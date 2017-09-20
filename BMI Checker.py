@@ -1,21 +1,22 @@
-#by Jonesy167, Body Mass Index Tool, tested on Windows 10 x64
+#by Jonesy167, Body Mass Index Tool, tested on Windows 10 x64, runs with python 2.7
 
 
 import os 
 
 #set file paths as varaiables using CSIDL type function, to mitigate unpredictable system names
-healthy = os.path.join(os.environ['USERPROFILE'], "Desktop\Military-BMI-checker-master\other\healthy.jpg")
-superfat = os.path.join(os.environ['USERPROFILE'], "Desktop\Military-BMI-checker-master\other\superfat.jpg")
-superfat2 = os.path.join(os.environ['USERPROFILE'], "Desktop\Military-BMI-checker-master\other\superfat2.jpg")
-superfat3 = os.path.join(os.environ['USERPROFILE'], "Desktop\Military-BMI-checker-master\other\superfat3.jpg")
-superfat4 = os.path.join(os.environ['USERPROFILE'], "Desktop\Military-BMI-checker-master\other\superfat4.jpg")
-superfat5 = os.path.join(os.environ['USERPROFILE'], "Desktop\Military-BMI-checker-master\other\superfat5.png")
-instructions = os.path.join(os.environ['USERPROFILE'], "Desktop\Military-BMI-checker-master\other\instructions.docx")
-sweat = os.path.join(os.environ['USERPROFILE'], "Desktop\Military-BMI-checker-master\other\sweat.jpg")
+healthy = os.path.join(os.environ['USERPROFILE'], "Desktop\BMI-checker-master\other\healthy.jpg")
+superfat = os.path.join(os.environ['USERPROFILE'], "Desktop\BMI-checker-master\other\superfat.jpg")
+superfat2 = os.path.join(os.environ['USERPROFILE'], "Desktop\BMI-checker-master\other\superfat2.jpg")
+superfat3 = os.path.join(os.environ['USERPROFILE'], "Desktop\BMI-checker-master\other\superfat3.jpg")
+superfat4 = os.path.join(os.environ['USERPROFILE'], "Desktop\BMI-checker-master\other\superfat4.jpg")
+superfat5 = os.path.join(os.environ['USERPROFILE'], "Desktop\BMI-checker-master\other\superfat5.png")
+instructions = os.path.join(os.environ['USERPROFILE'], "Desktop\BMI-checker-master\other\instructions.docx")
+sweat = os.path.join(os.environ['USERPROFILE'], "Desktop\BMI-checker-master\other\sweat.jpg")
 
 print ("this program will let you know if your fat or not, in case there was any doubt...............")
 
 print ("")
+
 
 print ("Using you're weight (plenty of that to go arround?) and height it will calculate your Body Mass Index (BMI) and let you know if you should be considering selling the surplus part of you to the soap factory :)")
 
@@ -119,4 +120,3 @@ if bmi >=25 and sex in ["m", "M", "male", "Male"]:
 raw_input ("")
 
 raw_input ("")
-
