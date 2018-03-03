@@ -6,4 +6,4 @@ To use simplpy double click on BMI_checker.exe
 
 The program was written in Python 2.7 and converted to an exe using Py2exe so that Python is not needed on the system to run
 
-## By downloading or using this script you agree not to hold the author responsible for any upset or offence caused
+## By downloading or using this program you agree not to hold the author responsible for any upset or offence caused
