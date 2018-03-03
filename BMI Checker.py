@@ -1,18 +1,27 @@
-#by Jonesy167, Body Mass Index Tool, tested on Windows 10 x64, runs with python 2.7
+# by Jonesy167, Body Mass Index Tool, tested on Windows 10 x64, runs with python 2.7
+
 
 import os
 
-# set file paths as varaiables using CSIDL type function, to mitigate unpredictable system names
-healthy = os.path.join(os.environ['USERPROFILE'], "Desktop\BMI-checker-master\other\healthy.jpg")
-superfat = os.path.join(os.environ['USERPROFILE'], "Desktop\BMI-checker-master\other\superfat.jpg")
-superfat2 = os.path.join(os.environ['USERPROFILE'], "Desktop\BMI-checker-master\other\superfat2.jpg")
-superfat3 = os.path.join(os.environ['USERPROFILE'], "Desktop\BMI-checker-master\other\superfat3.jpg")
-superfat4 = os.path.join(os.environ['USERPROFILE'], "Desktop\BMI-checker-master\other\superfat4.jpg")
-superfat5 = os.path.join(os.environ['USERPROFILE'], "Desktop\BMI-checker-master\other\superfat5.png")
-instructions = os.path.join(os.environ['USERPROFILE'], "Desktop\BMI-checker-master\other\instructions.docx")
-sweat = os.path.join(os.environ['USERPROFILE'], "Desktop\BMI-checker-master\other\sweat.jpg")
+
+PHOTO_PATH = os.path.dirname(os.path.abspath(__file__)) + "/photo.jpg"
+
+# set file paths
+healthy = os.path.dirname(os.path.abspath(__file__)) +  "\other\healthy.jpg"
+superfat = os.path.dirname(os.path.abspath(__file__)) + "\other\superfat.jpg"
+superfat2 = os.path.dirname(os.path.abspath(__file__)) + "\other\superfat2.jpg"
+superfat3 = os.path.dirname(os.path.abspath(__file__)) +"\other\superfat3.jpg"
+superfat4 = os.path.dirname(os.path.abspath(__file__)) + "\other\superfat4.jpg"
+superfat5 = os.path.dirname(os.path.abspath(__file__)) + "\other\superfat5.png"
+instructions = os.path.dirname(os.path.abspath(__file__)) + "\other\instructions.docx"
+sweat = os.path.dirname(os.path.abspath(__file__)) + "\other\sweat.jpg"
 
 print("this program will let you know if your fat or not, in case there was any doubt...............")
+
+
+PHOTO_PATH = os.path.dirname(os.path.abspath(__file__)) 
+print (PHOTO_PATH)
+
 
 print("")
 
@@ -82,7 +91,6 @@ bmi = weight_subject / squared_height
 
 print("Your bmi is %f " % bmi)
 
-raw_input("")
 
 if bmi >= 20 and bmi <= 25:
     print
@@ -148,8 +156,7 @@ if bmi >=25 and sex in ["m", "M", "male", "Male"]:
 	SPI_SETDESKWALLPAPER = 20 
 	ctypes.windll.user32.SystemParametersInfoA(SPI_SETDESKWALLPAPER, 0, superfat5, 0) #change screensaver to man eating cake
 
-	
-raw_input ("")
 
+print ("finised")
 raw_input ("")
 
