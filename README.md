@@ -3,7 +3,7 @@ BMI calculator, not for those easily offended! this is intended to be humorous, 
 
 
 Useage intructions:
-1) download BMI-checker.zip by hitting 'clone or download', select zip
+1) download BMI-checker.zip by hitting 'clone or download', select zip ***** ensure you do not just download the EXE you must download the full repo by selecting "clone or downlaod" while on this screen https://github.com/Jonesy167/BMI-checker ***
 2) extract zip file
 3) simplpy double click on BMI_checker.exe
 
