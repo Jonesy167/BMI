@@ -12,7 +12,7 @@ superfat3 = os.path.dirname(os.path.abspath("__file__")) +"\data\superfat3.jpg"
 superfat4 = os.path.dirname(os.path.abspath("__file__")) + "\data\superfat4.jpg"
 superfat5 = os.path.dirname(os.path.abspath("__file__")) + "\data\superfat5.png"
 instructions = os.path.dirname(os.path.abspath("__file__")) + "\data\instructions.docx"
-sweat = os.path.dirname(os.path.abspath("__file__")) + "\sweat.jpg"
+sweat = os.path.dirname(os.path.abspath("__file__")) + "\data\sweat.jpg"
 
 print("this program will let you know if your fat or not, in case there was any doubt...............")
 
