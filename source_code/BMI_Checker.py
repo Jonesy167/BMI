@@ -1,3 +1,5 @@
+#!/usr/bin/env python2.7
+
 # by Jonesy167, Body Mass Index Tool, tested on Windows 10 x64, runs with python 2.7
 
 
